@@ -93,7 +93,7 @@ MonoBehaviour:
     m_Value: 20000
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.122641504, g: 0.1043775, b: 0.09313812, a: 1}
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
   groundColorTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -172,8 +172,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   maxFogDistance:
-    m_OverrideState: 0
-    m_Value: 5000
+    m_OverrideState: 1
+    m_Value: 1423.3
   mipFogMaxMip:
     m_OverrideState: 0
     m_Value: 0.5
@@ -187,32 +187,35 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   maximumHeight:
-    m_OverrideState: 0
-    m_Value: 50
+    m_OverrideState: 1
+    m_Value: 8.6
   meanFreePath:
-    m_OverrideState: 0
-    m_Value: 400
+    m_OverrideState: 1
+    m_Value: 16.5
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   globalLightProbeDimmer:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0
   depthExtent:
     m_OverrideState: 0
-    m_Value: 64
+    m_Value: 34.84
   denoisingMode:
     m_OverrideState: 0
-    m_Value: 2
+    m_Value: 0
   anisotropy:
     m_OverrideState: 1
     m_Value: 0.65
   sliceDistributionUniformity:
     m_OverrideState: 0
     m_Value: 0.75
+  multipleScatteringIntensity:
+    m_OverrideState: 0
+    m_Value: 0
   m_FogControlMode:
     m_OverrideState: 0
     m_Value: 0
@@ -224,10 +227,10 @@ MonoBehaviour:
     m_Value: 64
   m_VolumetricFogBudget:
     m_OverrideState: 0
-    m_Value: 0.33
+    m_Value: 0.5
   m_ResolutionDepthRatio:
     m_OverrideState: 0
-    m_Value: 0.666
+    m_Value: 0.5
   directionalLightsOnly:
     m_OverrideState: 0
     m_Value: 0
@@ -318,14 +321,14 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   compensation:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.4
   limitMin:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 2.640553
   limitMax:
     m_OverrideState: 1
-    m_Value: 14
+    m_Value: 12.511521
   curveMap:
     m_OverrideState: 0
     m_Value:
@@ -418,7 +421,7 @@ MonoBehaviour:
     m_Value: {fileID: 0}
   histogramPercentages:
     m_OverrideState: 0
-    m_Value: {x: 40, y: 90}
+    m_Value: {x: 0, y: 35.714287}
   histogramUseCurveRemapping:
     m_OverrideState: 0
     m_Value: 0
