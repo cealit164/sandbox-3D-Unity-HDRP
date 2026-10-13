@@ -74,3 +74,13 @@ Assets/
 ## Quality Levels
 
 There are three HDRP quality presets in `Assets/Settings/`: **Performant**, **Balanced** and **High Fidelity**. To switch between them, open **Edit > Project Settings > Quality**.
+
+## Contributing
+
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for how to set up the project (including Git LFS), make a change, and open a pull request.
+
+## License
+
+The original code and assets in this project are released under the [MIT License](LICENSE).
+
+Unity packages and template content (for example `Assets/TutorialInfo/` and the HDRP template settings) belong to Unity Technologies and are covered by their own licenses, such as the [Unity Companion License](https://unity.com/legal/licenses/unity-companion-license). The MIT License does not apply to them.
