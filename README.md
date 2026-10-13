@@ -1,5 +1,11 @@
 # Sandbox 3D Unity HDRP
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Unity 6000.3.9f1](https://img.shields.io/badge/Unity-6000.3.9f1-black?logo=unity)](https://unity.com/releases/editor/archive)
+[![HDRP 17.3](https://img.shields.io/badge/HDRP-17.3.0-blue)](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.3/manual/index.html)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Good first issues](https://img.shields.io/github/issues/cealit164/sandbox-3D-Unity-HDRP/good%20first%20issue?label=good%20first%20issues)](https://github.com/cealit164/sandbox-3D-Unity-HDRP/labels/good%20first%20issue)
+
 A small Unity sandbox project built on the **High Definition Render Pipeline (HDRP)**. It contains an outdoor scene with a procedurally generated 3D grid of cubes, each starting at a uniformly random orientation and tumbling continuously.
 
 ## Requirements
@@ -77,7 +83,19 @@ There are three HDRP quality presets in `Assets/Settings/`: **Performant**, **Ba
 
 ## Contributing
 
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for how to set up the project (including Git LFS), make a change, and open a pull request.
+Contributions are welcome, from bug reports and ideas to new scenes, scripts and materials!
+
+1. **Fork** this repository and clone your fork.
+2. Run `git lfs install` (images and models are stored with [Git LFS](https://git-lfs.com)).
+3. Open the project in Unity `6000.3.9f1` and play `Assets/OutdoorsScene.unity`.
+4. Make your change on a new branch, then open a **Pull Request** against `main`.
+
+Useful links:
+
+- 📖 [Contributing guide](CONTRIBUTING.md): full setup, code style and checklist
+- 🐛 [Report a bug](https://github.com/cealit164/sandbox-3D-Unity-HDRP/issues/new?template=bug_report.md)
+- 💡 [Suggest a feature](https://github.com/cealit164/sandbox-3D-Unity-HDRP/issues/new?template=feature_request.md)
+- 🌱 [Good first issues](https://github.com/cealit164/sandbox-3D-Unity-HDRP/labels/good%20first%20issue): easy places to start
 
 ## License
 
